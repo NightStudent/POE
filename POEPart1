@@ -1,0 +1,60 @@
+import javax.swing.JOptionPane;
+
+public class POEPart1{  
+	
+public static void main(String args[])
+{  
+	String username;
+    String username2;
+    String lastUsername;
+    String lastUsername2;
+    String password;
+    String password2;
+    //name2 and password2 are used to compare for login
+    String Success = "Sucerss";
+    String check;
+    //used to keep track of checks
+	
+	username2 = JOptionPane.showInputDialog("Enter your first to sign up");
+	lastUsername2 = JOptionPane.showInputDialog("Enter your surname to sign up");
+	password2 = JOptionPane.showInputDialog("Enter your password to sign up");
+
+   // JOptionPane.showMessageDialog(null,name);
+    
+	username = JOptionPane.showInputDialog("Enter your username to login");
+	
+//	if (username.length() > 6) 
+	//{if (username.matches(username2)) 
+//JOptionPane.showMessageDialog(null,"Success");}
+//else {JOptionPane.showMessageDialog(null,"Failed to login");}
+	//else {JOptionPane.showMessageDialog(null,"Failed to login");}
+ for(check.matches(Success);;) { 
+	 
+	if (username.matches(password2))
+			{ JOptionPane.showMessageDialog(null,"Success");
+			check = "Success";
+	if(username.length() < 6) 
+	        { {JOptionPane.showMessageDialog(null,"Success");
+			check = "Success";}}
+	if (username.contains("_")) 
+	        { JOptionPane.showMessageDialog(null,"Success");
+			check = "Success";}
+	else   {JOptionPane.showMessageDialog(null,"fail");}
+	else   {JOptionPane.showMessageDialog(null,"fail");}}
+	else   {JOptionPane.showMessageDialog(null,"Fail");}}}
+ 
+	
+	lastUsername = JOptionPane.showInputDialog("Enter your username to login");
+	
+    password = JOptionPane.showInputDialog("Enter your password to login");
+  if (password.matches (password2)) { 
+		JOptionPane.showMessageDialog(null,"Succes!");} 
+  else {JOptionPane.showMessageDialog(null,"Fail");}
+		
+  
+  
+	//JOptionPane.showMessageDialog(null, "Welcome" + username + lastUsername + "it is great to see you" );
+ 
+    
+    }}
+
